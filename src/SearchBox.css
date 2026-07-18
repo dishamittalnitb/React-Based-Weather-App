@@ -1,0 +1,23 @@
+.SearchBox{
+text-align: center;
+margin-bottom: 2rem;
+padding: 20px;
+border-radius: 10px;
+background: rgba(255, 255, 255, 0.1); /* Slight transparency */
+/* backdrop-filter: blur(10px); Frosted glass effect */
+border: 2px solid transparent;
+transition: all 0.4s ease-in-out;
+position: relative;
+}
+.SearchBox:hover::before {
+    filter: blur(15px);
+    opacity: 1;
+  }
+
+.Head{
+    opacity: 1.5;
+}
+
+button{
+    opacity: 0.7;
+}
